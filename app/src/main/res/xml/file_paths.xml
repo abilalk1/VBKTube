@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Only the folders the app actually shares from (see DownloadService target dirs / DownloadsFragment). -->
+<paths>
+    <external-files-path
+        name="app_movies"
+        path="Movies/" />
+    <external-files-path
+        name="app_music"
+        path="Music/" />
+    <external-files-path
+        name="app_pictures"
+        path="Pictures/" />
+    <!-- Fallback target when external app storage is unavailable (getFilesDir()). -->
+    <files-path
+        name="internal_files"
+        path="." />
+</paths>

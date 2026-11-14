@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Opaque surfaces for dialogs / bottom sheets (night) -->
+    <color name="surface_opaque">#12161F</color>
+    <color name="surface_opaque_high">#1B2130</color>
+    <color name="surface_opaque_highest">#232A3B</color>
+</resources>

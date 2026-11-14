@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Deep Obsidian Carbon Base (Gece/Gündüz Göz Almayan Koyu Zemin) -->
+    <item android:drawable="@color/background_dark" />
+
+    <!-- Centered VBKTube Crystal Prism Logo Badge -->
+    <item
+        android:width="120dp"
+        android:height="120dp"
+        android:drawable="@drawable/ic_splash_logo"
+        android:gravity="center" />
+</layer-list>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VBKTube</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_browser">Browser</string>
+    <string name="nav_downloads">Downloads</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home Screen -->
+    <string name="home_subtitle">4-Layer Hybrid Video &amp; Audio Engine</string>
+    <string name="hero_engine_badge_active">● 4/4 Services Active</string>
+    <string name="hero_engine_badge_repair">⚡ Tap to Activate &amp; Refresh Extraction Services</string>
+    <string name="url_hint">Paste link (YouTube, Instagram, X/Twitter, TikTok, beIN, MP4...)</string>
+    <string name="btn_paste">Paste Link</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_analyze">Select Quality &amp; Format (4K / 1080p / MP3)</string>
+    <string name="btn_direct_download">Quick Download</string>
+    <string name="analyzing_url">Analyzing streams via NewPipe, Social API &amp; yt-dlp…</string>
+    <string name="supported_sites_title">Supported Platforms &amp; 1-Tap Browser</string>
+    <string name="plat_youtube_sub">4K, 1080p, Shorts &amp; MP3</string>
+    <string name="plat_instagram_sub">Reels, Posts &amp; Stories</string>
+    <string name="plat_twitter_sub">HD Videos &amp; GIFs</string>
+    <string name="plat_tiktok_sub">No-Watermark HD &amp; MP3</string>
+    <string name="plat_bein_sub">Match Highlights &amp; HLS</string>
+    <string name="plat_facebook_sub">Facebook &amp; Reddit HD</string>
+    <string name="how_it_works_title">Pro Tips &amp; How It Works</string>
+    <string name="tips_collapse_btn">Minimize ▲</string>
+    <string name="tips_expand_btn">Expand ▼</string>
+    <string name="how_step_1">1. Paste any link from YouTube, Instagram, X/Twitter, TikTok, or sports/video sites</string>
+    <string name="how_step_2">2. Pick exact resolution (4K/1080p/720p) or extract high-bitrate MP3/M4A audio</string>
+    <string name="how_step_3">3. For private/logged-in videos, sign in once in the Browser tab—cookies sync automatically!</string>
+    <string name="error_empty_url">Please enter or paste a valid URL</string>
+    <string name="error_invalid_url">Invalid URL format. Please include http:// or https://</string>
+    <string name="error_instagram_story_login_required">To download Instagram stories and highlights, please log in once to your Instagram account in the Browser tab or open the story directly in the Browser tab.</string>
+    <string name="error_extraction_failed">Could not extract video streams. Try opening the page in the built-in Browser tab or updating services in Settings.</string>
+    <string name="clipboard_empty">Clipboard is empty</string>
+    <string name="clipboard_detected">Link pasted from clipboard</string>
+
+    <!-- Format Bottom Sheet -->
+    <string name="select_format_title">Select Quality &amp; Format</string>
+    <string name="tab_video_formats">Video Formats</string>
+    <string name="tab_audio_formats">Audio Only (MP3/M4A)</string>
+    <string name="btn_start_download">Start Download Now</string>
+    <string name="btn_download_all_media">Download All (%1$d Items)</string>
+    <string name="btn_download_selected">Download Selected Only</string>
+    <string name="btn_download_selected_count">Download Selected (%1$d Items)</string>
+    <string name="btn_select_at_least_one">Please Select Media</string>
+    <string name="select_all">Select All</string>
+    <string name="deselect_all">Deselect All</string>
+    <string name="selected_media_count">%1$d / %2$d Media Selected</string>
+    <string name="multi_download_enqueued">%1$d media queued for download</string>
+    <string name="format_best_video">Best Quality Video + Audio (Auto Merge)</string>
+    <string name="format_best_audio">Best Audio (MP3 320kbps)</string>
+    <string name="unknown_size">Stream</string>
+    <string name="duration_label">Duration: %1$s</string>
+    <string name="uploader_label">Channel: %1$s</string>
+
+    <string name="tab_photo_formats">Photos &amp; Images</string>
+
+    <!-- Browser & Media Grabber -->
+    <string name="browser_url_hint">Search or enter website URL…</string>
+    <string name="detected_media_count">%1$d Media Detected</string>
+    <string name="no_media_detected_yet">Play a video on the page to auto-detect streams, or tap Analyze Page URL</string>
+    <string name="btn_analyze_current_page">Analyze &amp; Download Page</string>
+    <string name="detected_streams_title">Detected Media on Page</string>
+    <string name="detected_cleared_toast">Detected media list cleared</string>
+    <string name="adblock_enabled_toast">Ad-Block Active</string>
+
+    <!-- Downloads Screen -->
+    <string name="downloads_title">Download Manager</string>
+    <string name="filter_all">All</string>
+    <string name="filter_active">Active</string>
+    <string name="filter_completed">Completed</string>
+    <string name="empty_downloads_title">No Downloads Yet</string>
+    <string name="empty_downloads_subtitle">Paste a link on the Home screen or browse websites to start downloading videos and music.</string>
+    <string name="status_queued">Queued…</string>
+    <string name="status_downloading">Downloading • %1$d%% • %2$s</string>
+    <string name="status_completed">Completed • %1$s</string>
+    <string name="status_failed">Failed: %1$s</string>
+    <string name="status_canceled">Canceled</string>
+    <string name="action_play">Play</string>
+    <string name="action_view">View</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_share">Share</string>
+    <string name="action_delete">Delete</string>
+    <string name="download_started_toast">Download added to queue: %1$s</string>
+    <string name="file_deleted_toast">Item deleted</string>
+
+    <!-- Player Screen -->
+    <string name="player_title">Media Player</string>
+    <string name="player_error">Could not play this media file</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings &amp; Services</string>
+    <string name="settings_appearance">Appearance &amp; Language</string>
+    <string name="settings_theme_title">App Theme</string>
+    <string name="theme_system">System Default</string>
+    <string name="theme_light">Light Mode</string>
+    <string name="theme_dark">Dark Mode</string>
+    <string name="settings_language_title">App Language</string>
+    <string name="lang_turkish">Türkçe (Turkish)</string>
+    <string name="lang_english">English</string>
+    <string name="settings_engine">Extraction Services &amp; Engine Control</string>
+    <string name="engine_status_title">Active Services Status</string>
+    <string name="service_newpipe_title">YouTube NewPipe Engine (v0.26.2)</string>
+    <string name="service_ytdlp_title">yt-dlp Universal Core (v0.18.1)</string>
+    <string name="service_ffmpeg_title">FFmpeg Muxer &amp; MP3 Converter</string>
+    <string name="service_sniffer_title">Social API &amp; Aria2c Stream Engine</string>
+    <string name="service_status_active">ACTIVE</string>
+    <string name="service_status_inactive">INACTIVE</string>
+    <string name="update_channel_title">yt-dlp Update Channel</string>
+    <string name="channel_nightly">Nightly (Recommended for YouTube/Instagram/X)</string>
+    <string name="channel_stable">Stable Release</string>
+    <string name="btn_reinit_services">Find &amp; Activate All Services</string>
+    <string name="btn_update_engine">Update yt-dlp Cloud Binary</string>
+    <string name="updating_engine">Initializing &amp; updating extraction services…</string>
+    <string name="engine_updated">All services updated and activated!</string>
+    <string name="engine_up_to_date">All services are active and up to date</string>
+    <string name="engine_update_error">Update error: %1$s</string>
+    <string name="storage_location_title">Download Folder</string>
+    <string name="storage_location_desc">Internal Storage / Movies &amp; Music / VBKTube (Auto-saved to Gallery)</string>
+    <string name="show_tips_switch_title">Show Tips &amp; Guide on Home Screen</string>
+    <string name="show_tips_switch_desc">Display the "Pro Tips &amp; How It Works" section at the bottom of Home</string>
+    <string name="adblock_switch_title">Built-in Browser Ad-Blocker</string>
+    <string name="adblock_switch_desc">Block intrusive ads and trackers while browsing</string>
+    <string name="clear_completed_btn">Clear Completed History</string>
+    <string name="history_cleared_toast">Completed history cleared</string>
+    <string name="cache_storage_title">Temporary Download Cache</string>
+    <string name="cache_storage_desc">Incomplete chunks and temporary conversion files</string>
+    <string name="btn_clear_cache">Clear Cache &amp; Temp Files</string>
+    <string name="cache_cleared_toast">Temporary files cleared (%1$s freed)</string>
+    <string name="cache_calculating">Calculating…</string>
+    <string name="cache_clean">0 B (Clean)</string>
+    <string name="btn_add_shortcut">Add Shortcut</string>
+    <string name="add_shortcut_title">Add Browser Shortcut</string>
+    <string name="shortcut_name_hint">Shortcut Name (e.g. Twitch)</string>
+    <string name="shortcut_url_hint">Website URL (https://…)</string>
+    <string name="delete_shortcut_title">Delete Shortcut</string>
+    <string name="delete_shortcut_msg">Do you want to delete \"%1$s\"?</string>
+    <string name="clear_completed_title">Clear Completed Downloads</string>
+    <string name="clear_completed_dialog_msg">Would you like to delete the downloaded files from storage as well, or only clear the history log?</string>
+    <string name="clear_completed_and_files">Delete Files &amp; History</string>
+    <string name="clear_history_only">Clear History Only</string>
+    <string name="cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
+
+    <!-- Notification -->
+    <string name="notif_channel_name">Video Downloads</string>
+    <string name="notif_channel_desc">Shows progress for active video and audio downloads</string>
+    <string name="notif_downloading_title">Downloading: %1$s</string>
+    <string name="notif_completed_title">Download Complete: %1$s</string>
+    <string name="notif_failed_title">Download Failed: %1$s</string>
+
+    <!-- Format sheet / share / settings (localized from code) -->
+    <string name="format_chip_all_stories">All Stories (%1$d)</string>
+    <string name="format_chip_all_slides">All Slides (%1$d)</string>
+    <string name="format_chip_video_and_image">Video &amp; Image</string>
+    <string name="format_downloaded">✓ Downloaded</string>
+    <string name="settings_ytdlp_version">Version: %1$s • Channel: %2$s</string>
+    <string name="settings_ytdlp_builtin_ready">Built-in version ready • Channel: %1$s</string>
+    <string name="settings_ytdlp_tap_to_start">Tap the button below to start</string>
+    <string name="settings_binary_ready">Binary: Ready</string>
+    <string name="share_title">VBKTube • Quick Download</string>
+    <string name="share_btn_full_screen">Full Screen</string>
+    <string name="share_btn_open_browser">Open in VBKTube Browser &amp; Capture</string>
+    <string name="share_activity_label">VBKTube Quick Download</string>
+    <string name="vbk_core_badge">VBK CORE</string>
+    <string name="shortcut_sub_reddit">Community Videos</string>
+    <string name="shortcut_sub_facebook">Reels, Videos &amp; Watch</string>
+    <string name="shortcut_custom_site_default">Custom Site</string>
+    <string name="notification_permission_denied">Notifications are off, so download progress will not be shown.</string>
+
+    <!-- Shared keys for other screens (browser, downloads) -->
+    <string name="detected_media_download">Download</string>
+    <string name="detected_media_downloaded">✓ Downloaded</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_forward">Forward</string>
+    <string name="cd_refresh">Refresh</string>
+    <string name="cd_home">Home</string>
+    <string name="cd_close">Close</string>
+    <string name="delete_confirm_title">Delete download?</string>
+    <string name="delete_confirm_message">The file will be removed from your device.</string>
+    <string name="delete_confirm_positive">Delete</string>
+    <!-- Localization follow-up -->
+    <string name="error_start_not_allowed">Couldn\'t start the download in the background. Open the app and try again.</string>
+    <string name="error_interrupted">Download was interrupted because the app closed.</string>
+    <string name="error_no_internet">No internet connection or server not found.</string>
+    <string name="error_connect">Couldn\'t connect to the server.</string>
+    <string name="error_timeout">Connection timed out.</string>
+    <string name="error_ssl">Couldn\'t establish a secure connection.</string>
+    <string name="error_no_space">Not enough free storage on the device.</string>
+    <string name="error_unsupported_url">This link isn\'t supported.</string>
+    <string name="error_login_required">This content is private or requires login.</string>
+    <string name="error_download_failed">Download failed.</string>
+    <string name="error_http_forbidden">Access denied (HTTP %1$d). The link may have expired.</string>
+    <string name="error_http_not_found">File not found (HTTP %1$d).</string>
+    <string name="error_http_429">Too many requests (HTTP 429). Try again later.</string>
+    <string name="error_http_server">Server error (HTTP %1$d).</string>
+    <string name="error_http_other">Server rejected the request (HTTP %1$d).</string>
+    <string name="error_html_response">The server returned a web page instead of a media file. The link may have expired.</string>
+    <string name="error_empty_response">The server returned an empty response.</string>
+    <string name="error_empty_file">The server returned an empty file.</string>
+    <string name="error_incomplete">Download was cut off (%1$d/%2$d bytes).</string>
+    <string name="error_file_missing">The downloaded file is empty or missing.</string>
+    <string name="error_save_failed">Couldn\'t save the file to the download folder.</string>
+    <string name="error_no_output">Download couldn\'t finish: no output file was created.</string>
+    <string name="error_stream_no_output">Stream couldn\'t be downloaded: no output file was created.</string>
+    <string name="error_no_audio_in_source">No audio found in this source.</string>
+    <string name="error_audio_extract_failed">Couldn\'t get the audio separately: the source is a video and the audio converter isn\'t available.</string>
+    <string name="status_extracting_audio">Extracting audio...</string>
+    <string name="error_photo_failed">Couldn\'t download the photo.</string>
+    <string name="warn_mux_no_audio">Couldn\'t add audio: video saved without sound.</string>
+    <string name="warn_audio_download_failed">Couldn\'t download audio: video saved without sound.</string>
+    <string name="warn_music_failed">Couldn\'t add music: only the photo was saved.</string>
+    <string name="status_trying_fallback">Trying fallback method...</string>
+    <string name="status_merging_ffmpeg">Merging (FFmpeg)...</string>
+    <string name="status_converting_mp3">Converting to MP3...</string>
+    <string name="status_downloading_hls">Downloading HLS stream...</string>
+    <string name="status_creating_music_video">Creating video with music...</string>
+    <string name="eta_remaining">Remaining:</string>
+    <string name="notif_channel_events_name">Download results</string>
+    <string name="notif_channel_events_desc">Completed and failed downloads</string>
+    <string name="format_auto_best">Best Quality (auto)</string>
+    <string name="format_direct_fast_stream">Direct Fast Stream (MP4)</string>
+    <string name="sub_direct_server_download">MP4 • Direct server download</string>
+    <string name="sub_mp3_converted">MP3 • Converted (yt-dlp + FFmpeg)</string>
+    <string name="format_m4a_original">M4A Audio (Original)</string>
+    <string name="sub_m4a_no_conversion">M4A • AAC audio, no conversion</string>
+    <string name="format_image_default_title">Image</string>
+    <string name="format_photo">Photo (%1$s)</string>
+    <string name="sub_photo_direct">Direct original image download</string>
+    <string name="error_not_media_html">The link does not return a media file (web page)</string>
+    <string name="format_hls_merge">HLS Stream (MP4 Video Merge)</string>
+    <string name="sub_hls_ffmpeg_downloader">M3U8 -> MP4 • FFmpeg stream downloader</string>
+    <string name="format_direct_audio">Direct Audio (%1$s)</string>
+    <string name="format_direct_video">Direct Video (%1$s)</string>
+    <string name="sub_direct_http_stream">Direct HTTP stream</string>
+    <string name="sub_direct_http_stream_web">Direct HTTP stream (beIN / Web Player)</string>
+    <string name="sub_mp3_from_video">MP3 • Audio converted from video (FFmpeg)</string>
+    <string name="format_web_video_stream">Web Video Stream (MP4)</string>
+    <string name="sub_mp3_audio_file">MP3 • Audio file (FFmpeg)</string>
+    <string name="format_live_hls_hd">Live / HLS HD Video Stream (MP4)</string>
+    <string name="sub_hls_ffmpeg_merger">M3U8 -> MP4 • FFmpeg stream merger</string>
+    <string name="engine_progress_restarting">Scanning and restarting services (NewPipe, yt-dlp, FFmpeg, Aria2c)...</string>
+    <string name="engine_error_init">Service startup error: %1$s</string>
+    <string name="engine_progress_updating">Updating yt-dlp engine (%1$s) from GitHub...</string>
+    <string name="engine_result_updated">yt-dlp updated (%1$s). NewPipe v0.26.2, FFmpeg and Aria2c are ready.</string>
+    <string name="engine_result_update_failed_bundled">yt-dlp update failed; using the bundled version (%1$s).</string>
+    <string name="engine_result_update_failed_current">yt-dlp update failed; using the current version (%1$s).</string>
+    <string name="engine_result_all_started">All download services (NewPipe v0.26.2, yt-dlp %1$s, FFmpeg, Aria2c) started successfully!</string>
+    <string name="status_error_unknown">Unknown error</string>
+
+    <string name="disclaimer_title">Before you start</string>
+    <string name="disclaimer_message">VBKTube is for personal use and for content you have the right to download.\n\nYou are responsible for complying with copyright law and the terms of service of the sites you use.\n\nVBKTube is not affiliated with, endorsed by, or sponsored by YouTube, Instagram, TikTok, X, Reddit, Facebook or any other platform.</string>
+    <string name="disclaimer_ok">I understand</string>
+    <string name="settings_legal_row">About / Legal notice</string>
+
+    <string name="update_auto_check">Check for updates automatically</string>
+    <string name="update_check_btn">Check for updates</string>
+    <string name="update_available_title">Update available</string>
+    <string name="update_available_msg">VBKTube %1$s is available (you have %2$s).</string>
+    <string name="update_download">Download</string>
+    <string name="update_later">Later</string>
+    <string name="update_up_to_date">You have the latest version.</string>
+    <string name="update_check_failed">Could not check for updates.</string>
+
+    <string name="format_fast_direct_stream">MP4 • Fast direct stream (audio + video)</string>
+</resources>

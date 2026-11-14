@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Brand Palette: Rose-Tinted Crimson (Pembeleşen Zarif Kırmızı) -->
+    <color name="primary">#A81B46</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#FCE7EE</color>
+    <color name="on_primary_container">#4A0A20</color>
+
+    <!-- Secondary Accent: Frosted Slate Glass (Light Mode) -->
+    <color name="secondary">#334155</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="secondary_container">#CCDEE6F2</color>
+    <color name="on_secondary_container">#0F172A</color>
+
+    <!-- Surfaces & Backgrounds (iOS Liquid Glass Light Mode) -->
+    <color name="background">#EEF2F8</color>
+    <color name="on_background">#0F172A</color>
+    <color name="surface">#B8FFFFFF</color>
+    <color name="on_surface">#0F172A</color>
+    <color name="surface_variant">#99E2E8F0</color>
+    <color name="on_surface_variant">#475569</color>
+    <color name="outline">#6694A3B8</color>
+
+    <!-- Dark Theme Overrides: iOS Liquid Glass & Rose-Tinted Crimson -->
+    <color name="primary_dark">#BA2252</color>
+    <color name="on_primary_dark">#FFFFFF</color>
+    <color name="primary_container_dark">#A6381022</color>
+    <color name="on_primary_container_dark">#F8FAFC</color>
+    <color name="secondary_dark">#94A3B8</color>
+    <color name="on_secondary_dark">#0F172A</color>
+    <color name="secondary_container_dark">#B322293A</color>
+    <color name="on_secondary_container_dark">#F1F5F9</color>
+    <color name="background_dark">#07090E</color>
+    <color name="on_background_dark">#F1F5F9</color>
+    <!-- Translucent Frosted Dark Glass Surface (~60% Opacity) -->
+    <color name="surface_dark">#99111520</color>
+    <color name="on_surface_dark">#F1F5F9</color>
+    <!-- Translucent Frosted Inner Pill/Input Surface (~66% Opacity) -->
+    <color name="surface_variant_dark">#A8191F2E</color>
+    <color name="on_surface_variant_dark">#94A3B8</color>
+    <!-- Specular Glass Rim Edge Highlight (~20% White) -->
+    <color name="outline_dark">#33FFFFFF</color>
+
+    <!-- Platform Brand Accents -->
+    <color name="brand_social_bg">#28F97316</color>
+    <color name="brand_social_fg">#F97316</color>
+
+    <!-- Status Colors -->
+    <color name="success">#10B981</color>
+    <color name="warning">#F59E0B</color>
+    <color name="error">#EF4444</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+
+    <!-- Opaque surfaces for dialogs / bottom sheets (the "glass" colors above stay for cards) -->
+    <color name="surface_opaque">#F8FAFC</color>
+    <color name="surface_opaque_high">#EAEFF6</color>
+    <color name="surface_opaque_highest">#E1E8F1</color>
+</resources>

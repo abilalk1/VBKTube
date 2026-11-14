@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VBKTube</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Ana Sayfa</string>
+    <string name="nav_browser">Tarayıcı</string>
+    <string name="nav_downloads">İndirilenler</string>
+    <string name="nav_settings">Ayarlar</string>
+
+    <!-- Home Screen -->
+    <string name="home_subtitle">4 Katmanlı Hibrit Video &amp; Ses İndirme Motoru</string>
+    <string name="hero_engine_badge_active">● 4/4 Servis Aktif</string>
+    <string name="hero_engine_badge_repair">⚡ Servisleri Yeniden Bulmak &amp; Başlatmak İçin Dokunun</string>
+    <string name="url_hint">Video bağlantısını yapıştırın (YouTube, Instagram, X, TikTok, beIN...)</string>
+    <string name="btn_paste">Yapıştır</string>
+    <string name="btn_clear">Temizle</string>
+    <string name="btn_analyze">Kalite &amp; Format Seç (4K / 1080p / MP3)</string>
+    <string name="btn_direct_download">Hızlı İndir</string>
+    <string name="analyzing_url">NewPipe, Sosyal Medya API ve yt-dlp ile kaliteler çözülüyor…</string>
+    <string name="supported_sites_title">Desteklenen Platformlar &amp; Tek Tıkla Tarayıcı</string>
+    <string name="plat_youtube_sub">4K, 1080p, Shorts ve MP3</string>
+    <string name="plat_instagram_sub">Reels, Gönderi &amp; Hikaye</string>
+    <string name="plat_twitter_sub">HD Video ve GIF</string>
+    <string name="plat_tiktok_sub">Filigransız HD &amp; Ses</string>
+    <string name="plat_bein_sub">Maç Özeti &amp; Web Akışı</string>
+    <string name="plat_facebook_sub">Facebook ve Reddit HD</string>
+    <string name="how_it_works_title">İpuçları ve Nasıl Çalışır?</string>
+    <string name="tips_collapse_btn">Küçült ▲</string>
+    <string name="tips_expand_btn">Aç ▼</string>
+    <string name="how_step_1">1. YouTube, Instagram, X (Twitter), TikTok veya maç özeti sitelerinden bağlantıyı yapıştırın</string>
+    <string name="how_step_2">2. İstediğiniz video çözünürlüğünü (4K/1080p/720p) veya MP3/M4A ses formatını seçin</string>
+    <string name="how_step_3">3. Gizli veya giriş gerektiren videolar için Tarayıcı sekmesinden giriş yapmanız yeterlidir; çerezler otomatik eşleşir!</string>
+    <string name="error_empty_url">Lütfen geçerli bir bağlantı girin veya yapıştırın</string>
+    <string name="error_invalid_url">Geçersiz bağlantı formatı. Lütfen http:// veya https:// ile başladığından emin olun</string>
+    <string name="error_instagram_story_login_required">Instagram hikaye ve öne çıkanları indirmek için lütfen Tarayıcı sekmesinden bir kez Instagram hesabınıza giriş yapın veya hikayeyi doğrudan Tarayıcı sekmesinde açın.</string>
+    <string name="error_extraction_failed">Bu bağlantıdan medya akışı alınamadı. Sayfayı Tarayıcı sekmesinde açmayı veya Ayarlar\'dan servisleri güncellemeyi deneyin.</string>
+    <string name="clipboard_empty">Panoda metin bulunamadı</string>
+    <string name="clipboard_detected">Bağlantı panodan yapıştırıldı</string>
+
+    <!-- Format Bottom Sheet -->
+    <string name="select_format_title">Kalite ve Format Seçin</string>
+    <string name="tab_video_formats">Video Kaliteleri</string>
+    <string name="tab_audio_formats">Sadece Ses (MP3/M4A)</string>
+    <string name="btn_start_download">İndirmeyi Hemen Başlat</string>
+    <string name="btn_download_all_media">Tümünü İndir (%1$d Medya)</string>
+    <string name="btn_download_selected">Yalnızca Seçiliyi İndir</string>
+    <string name="btn_download_selected_count">Seçilenleri İndir (%1$d Medya)</string>
+    <string name="btn_select_at_least_one">Lütfen Medya Seçin</string>
+    <string name="select_all">Tümünü Seç</string>
+    <string name="deselect_all">Seçimi Kaldır</string>
+    <string name="selected_media_count">%1$d / %2$d Medya Seçildi</string>
+    <string name="multi_download_enqueued">%1$d medya sırayla indirme kuyruğuna alındı</string>
+    <string name="format_best_video">En Yüksek Kalite Video + Ses (Otomatik Birleştirme)</string>
+    <string name="format_best_audio">En Yüksek Kalite Ses (MP3 320kbps)</string>
+    <string name="unknown_size">Hazır Akış</string>
+    <string name="duration_label">Süre: %1$s</string>
+    <string name="uploader_label">Kanal: %1$s</string>
+
+    <string name="tab_photo_formats">Fotoğraflar &amp; Görseller</string>
+
+    <!-- Browser & Media Grabber -->
+    <string name="browser_url_hint">Arama yapın veya web adresi girin…</string>
+    <string name="detected_media_count">%1$d Medya Yakalandı</string>
+    <string name="no_media_detected_yet">Otomatik yakalama için sayfada bir video oynatın veya Sayfayı Analiz Et butonuna dokunun</string>
+    <string name="btn_analyze_current_page">Sayfayı Analiz Et &amp; İndir</string>
+    <string name="detected_streams_title">Sayfada Yakalanan Medyalar</string>
+    <string name="detected_cleared_toast">Yakalanan medyalar temizlendi</string>
+    <string name="adblock_enabled_toast">Reklam Engelleyici Aktif</string>
+
+    <!-- Downloads Screen -->
+    <string name="downloads_title">İndirme Yöneticisi</string>
+    <string name="filter_all">Tümü</string>
+    <string name="filter_active">Aktif</string>
+    <string name="filter_completed">Tamamlanan</string>
+    <string name="empty_downloads_title">Henüz İndirme Yok</string>
+    <string name="empty_downloads_subtitle">Video veya müzik indirmeye başlamak için Ana Sayfadan bağlantı yapıştırın ya da Tarayıcıyı kullanın.</string>
+    <string name="status_queued">Sırada bekliyor…</string>
+    <string name="status_downloading">İndiriliyor • %%%1$d • %2$s</string>
+    <string name="status_completed">Tamamlandı • %1$s</string>
+    <string name="status_failed">Hata: %1$s</string>
+    <string name="status_canceled">İptal Edildi</string>
+    <string name="action_play">Oynat</string>
+    <string name="action_view">Görüntüle</string>
+    <string name="action_cancel">İptal</string>
+    <string name="action_retry">Tekrar Dene</string>
+    <string name="action_share">Paylaş</string>
+    <string name="action_delete">Sil</string>
+    <string name="download_started_toast">İndirme kuyruğuna eklendi: %1$s</string>
+    <string name="file_deleted_toast">Kayıt silindi</string>
+
+    <!-- Player Screen -->
+    <string name="player_title">Medya Oynatıcı</string>
+    <string name="player_error">Bu medya dosyası oynatılamadı</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Ayarlar ve Servisler</string>
+    <string name="settings_appearance">Görünüm ve Dil</string>
+    <string name="settings_theme_title">Uygulama Teması</string>
+    <string name="theme_system">Sistem Varsayılanı</string>
+    <string name="theme_light">Açık Tema (Light)</string>
+    <string name="theme_dark">Koyu Tema (Dark)</string>
+    <string name="settings_language_title">Uygulama Dili</string>
+    <string name="lang_turkish">Türkçe</string>
+    <string name="lang_english">English (İngilizce)</string>
+    <string name="settings_engine">İndirme Servisleri ve Motor Kontrolü</string>
+    <string name="engine_status_title">Aktif İndirme Servisleri Durumu</string>
+    <string name="service_newpipe_title">YouTube NewPipe Servisi (v0.26.2)</string>
+    <string name="service_ytdlp_title">yt-dlp Evrensel Çekirdek (v0.18.1)</string>
+    <string name="service_ffmpeg_title">FFmpeg Video/Ses Birleştirici</string>
+    <string name="service_sniffer_title">Instagram/X/TikTok API &amp; Aria2c</string>
+    <string name="service_status_active">AKTİF</string>
+    <string name="service_status_inactive">KAPALI</string>
+    <string name="update_channel_title">yt-dlp Güncelleme Kanalı</string>
+    <string name="channel_nightly">Nightly (Önerilen - Günlük YouTube/Instagram/X Yamaları)</string>
+    <string name="channel_stable">Stable (Kararlı Sürüm)</string>
+    <string name="btn_reinit_services">Servisleri Yeniden Bul ve Aç (Onar)</string>
+    <string name="btn_update_engine">Servisleri Buluttan Güncelle (yt-dlp)</string>
+    <string name="updating_engine">Servisler başlatılıyor ve güncellemeler denetleniyor…</string>
+    <string name="engine_updated">Tüm servisler başarıyla açıldı ve güncellendi!</string>
+    <string name="engine_up_to_date">Tüm servisler aktif ve en güncel sürümde</string>
+    <string name="engine_update_error">Güncelleme uyarısı: %1$s</string>
+    <string name="storage_location_title">İndirme Klasörü</string>
+    <string name="storage_location_desc">Dahili Depolama / Movies &amp; Music / VBKTube (Galeriye Otomatik Kaydedilir)</string>
+    <string name="show_tips_switch_title">Ana Sayfada İpuçları Bölümünü Göster</string>
+    <string name="show_tips_switch_desc">Ana sayfanın altındaki \"İpuçları ve Nasıl Çalışır?\" kartını göster veya tamamen gizle</string>
+    <string name="adblock_switch_title">Dahili Tarayıcı Reklam Engelleyici</string>
+    <string name="adblock_switch_desc">Sitelerde gezinirken reklamları ve izleyicileri engeller</string>
+    <string name="clear_completed_btn">Tamamlanan Geçmişini Temizle</string>
+    <string name="history_cleared_toast">Tamamlanan indirme geçmişi temizlendi</string>
+    <string name="cache_storage_title">Geçici İndirme Önbelleği</string>
+    <string name="cache_storage_desc">Yarım kalan indirme parçaları ve dönüştürme önbelleği</string>
+    <string name="btn_clear_cache">Geçici Dosyaları ve Önbelleği Temizle</string>
+    <string name="cache_cleared_toast">Geçici dosyalar temizlendi (%1$s alan açıldı)</string>
+    <string name="cache_calculating">Hesaplanıyor…</string>
+    <string name="cache_clean">0 B (Temiz)</string>
+    <string name="btn_add_shortcut">Kısayol Ekle</string>
+    <string name="add_shortcut_title">Yeni Tarayıcı Kısayolu Ekle</string>
+    <string name="shortcut_name_hint">Kısayol Başlığı (Örn: Twitch, Dailymotion)</string>
+    <string name="shortcut_url_hint">Web Sitesi Adresi (https://…)</string>
+    <string name="delete_shortcut_title">Kısayolu Sil</string>
+    <string name="delete_shortcut_msg">\"%1$s\" kısayolunu silmek istiyor musunuz?</string>
+    <string name="clear_completed_title">Tamamlanan İndirmeleri Temizle</string>
+    <string name="clear_completed_dialog_msg">İndirilen video ve ses dosyalarını cihazdan tamamen silmek istiyor musunuz, yoksa yalnızca indirme geçmişi listesi mi temizlensin?</string>
+    <string name="clear_completed_and_files">Dosyaları ve Geçmişi Sil</string>
+    <string name="clear_history_only">Yalnızca Geçmişi Temizle</string>
+    <string name="cancel">İptal</string>
+    <string name="btn_delete">Sil</string>
+
+    <!-- Notification -->
+    <string name="notif_channel_name">Video İndirmeleri</string>
+    <string name="notif_channel_desc">Aktif video ve ses indirmelerinin ilerleme durumunu gösterir</string>
+    <string name="notif_downloading_title">İndiriliyor: %1$s</string>
+    <string name="notif_completed_title">İndirme Tamamlandı: %1$s</string>
+    <string name="notif_failed_title">İndirme Başarısız: %1$s</string>
+
+    <!-- Format sheet / share / settings (localized from code) -->
+    <string name="format_chip_all_stories">Tüm Hikayeler (%1$d)</string>
+    <string name="format_chip_all_slides">Tüm Kaydırmalar (%1$d)</string>
+    <string name="format_chip_video_and_image">Video &amp; Görsel</string>
+    <string name="format_downloaded">✓ İndirildi</string>
+    <string name="settings_ytdlp_version">Sürüm: %1$s • Kanal: %2$s</string>
+    <string name="settings_ytdlp_builtin_ready">Yerleşik Sürüm Hazır • Kanal: %1$s</string>
+    <string name="settings_ytdlp_tap_to_start">Başlatmak için aşağıdaki butona dokunun</string>
+    <string name="settings_binary_ready">Binary: Hazır</string>
+    <string name="share_title">VBKTube • Hızlı İndir</string>
+    <string name="share_btn_full_screen">Tam Ekran</string>
+    <string name="share_btn_open_browser">VBKTube Tarayıcısında Aç ve Yakala</string>
+    <string name="share_activity_label">VBKTube Hızlı İndir</string>
+    <string name="vbk_core_badge">VBK CORE</string>
+    <string name="shortcut_sub_reddit">Topluluk Videoları</string>
+    <string name="shortcut_sub_facebook">Reels, Videolar &amp; Watch</string>
+    <string name="shortcut_custom_site_default">Özel Site</string>
+    <string name="notification_permission_denied">Bildirimler kapalı; indirme ilerlemesi gösterilmeyecek.</string>
+
+    <!-- Shared keys for other screens (browser, downloads) -->
+    <string name="detected_media_download">İndir</string>
+    <string name="detected_media_downloaded">✓ İndirildi</string>
+    <string name="cd_back">Geri</string>
+    <string name="cd_forward">İleri</string>
+    <string name="cd_refresh">Yenile</string>
+    <string name="cd_home">Ana Sayfa</string>
+    <string name="cd_close">Kapat</string>
+    <string name="delete_confirm_title">İndirme silinsin mi?</string>
+    <string name="delete_confirm_message">Dosya cihazınızdan silinecek.</string>
+    <string name="delete_confirm_positive">Sil</string>
+    <!-- Localization follow-up -->
+    <string name="error_start_not_allowed">İndirme arka planda başlatılamadı. Uygulamayı açıp tekrar deneyin.</string>
+    <string name="error_interrupted">Uygulama kapandığı için indirme yarıda kaldı.</string>
+    <string name="error_no_internet">İnternet bağlantısı yok ya da sunucu bulunamadı.</string>
+    <string name="error_connect">Sunucuya bağlanılamadı.</string>
+    <string name="error_timeout">Bağlantı zaman aşımına uğradı.</string>
+    <string name="error_ssl">Güvenli bağlantı kurulamadı.</string>
+    <string name="error_no_space">Cihazda yeterli boş alan yok.</string>
+    <string name="error_unsupported_url">Bu bağlantı desteklenmiyor.</string>
+    <string name="error_login_required">Bu içerik giriş gerektiriyor ya da özel.</string>
+    <string name="error_download_failed">İndirme başarısız oldu.</string>
+    <string name="error_http_forbidden">Erişim reddedildi (HTTP %1$d). Bağlantının süresi dolmuş olabilir.</string>
+    <string name="error_http_not_found">Dosya bulunamadı (HTTP %1$d).</string>
+    <string name="error_http_429">Çok fazla istek (HTTP 429). Biraz sonra tekrar deneyin.</string>
+    <string name="error_http_server">Sunucu hatası (HTTP %1$d).</string>
+    <string name="error_http_other">Sunucu isteği reddetti (HTTP %1$d).</string>
+    <string name="error_html_response">Sunucu medya dosyası yerine bir web sayfası döndürdü. Bağlantının süresi dolmuş olabilir.</string>
+    <string name="error_empty_response">Sunucu boş yanıt döndürdü.</string>
+    <string name="error_empty_file">Sunucu boş bir dosya döndürdü.</string>
+    <string name="error_incomplete">İndirme yarıda kesildi (%1$d/%2$d bayt).</string>
+    <string name="error_file_missing">İndirilen dosya boş ya da bulunamadı.</string>
+    <string name="error_save_failed">Dosya indirme klasörüne kaydedilemedi.</string>
+    <string name="error_no_output">İndirme tamamlanamadı: çıktı dosyası oluşmadı.</string>
+    <string name="error_stream_no_output">Akış indirilemedi: çıktı dosyası oluşmadı.</string>
+    <string name="error_no_audio_in_source">Bu kaynakta ses bulunamadı.</string>
+    <string name="error_audio_extract_failed">Ses ayrı olarak alınamadı: kaynak bir video dosyası ve ses dönüştürücü kullanılamıyor.</string>
+    <string name="status_extracting_audio">Ses ayrıştırılıyor...</string>
+    <string name="error_photo_failed">Fotoğraf indirilemedi.</string>
+    <string name="warn_mux_no_audio">Ses eklenemedi: video sessiz kaydedildi.</string>
+    <string name="warn_audio_download_failed">Ses indirilemedi: video sessiz kaydedildi.</string>
+    <string name="warn_music_failed">Müzik eklenemedi: sadece fotoğraf kaydedildi.</string>
+    <string name="status_trying_fallback">Yedek yöntem deneniyor...</string>
+    <string name="status_merging_ffmpeg">Birleştiriliyor (FFmpeg)...</string>
+    <string name="status_converting_mp3">MP3 Dönüştürülüyor...</string>
+    <string name="status_downloading_hls">HLS Akışı İndiriliyor...</string>
+    <string name="status_creating_music_video">Müzikli Video Oluşturuluyor...</string>
+    <string name="eta_remaining">Kalan:</string>
+    <string name="notif_channel_events_name">İndirme sonuçları</string>
+    <string name="notif_channel_events_desc">Tamamlanan ve başarısız indirmeler</string>
+    <string name="format_auto_best">En İyi Kalite (otomatik)</string>
+    <string name="format_direct_fast_stream">Doğrudan Hızlı Akış (MP4)</string>
+    <string name="sub_direct_server_download">MP4 • Doğrudan Sunucu İndirmesi</string>
+    <string name="sub_mp3_converted">MP3 • Dönüştürülmüş (yt-dlp + FFmpeg)</string>
+    <string name="format_m4a_original">M4A Ses (Orijinal)</string>
+    <string name="sub_m4a_no_conversion">M4A • AAC Ses, dönüştürmesiz</string>
+    <string name="format_image_default_title">Görsel</string>
+    <string name="format_photo">Fotoğraf (%1$s)</string>
+    <string name="sub_photo_direct">Doğrudan orijinal görsel indirmesi</string>
+    <string name="error_not_media_html">Bağlantı bir medya dosyası döndürmüyor (web sayfası)</string>
+    <string name="format_hls_merge">HLS Akışı (MP4 Video Birleştirme)</string>
+    <string name="sub_hls_ffmpeg_downloader">M3U8 -> MP4 • FFmpeg Akış İndirici</string>
+    <string name="format_direct_audio">Doğrudan Ses (%1$s)</string>
+    <string name="format_direct_video">Doğrudan Video (%1$s)</string>
+    <string name="sub_direct_http_stream">Doğrudan HTTP Akışı</string>
+    <string name="sub_direct_http_stream_web">Doğrudan HTTP Akışı (beIN / Web Player)</string>
+    <string name="sub_mp3_from_video">MP3 • Videodan dönüştürülmüş ses (FFmpeg)</string>
+    <string name="format_web_video_stream">Web Video Akışı (MP4)</string>
+    <string name="sub_mp3_audio_file">MP3 • Ses Dosyası (FFmpeg)</string>
+    <string name="format_live_hls_hd">Canlı / HLS HD Video Akışı (MP4)</string>
+    <string name="sub_hls_ffmpeg_merger">M3U8 -> MP4 • FFmpeg Akış Birleştirici</string>
+    <string name="engine_progress_restarting">Servisler taranıyor ve yeniden başlatılıyor (NewPipe, yt-dlp, FFmpeg, Aria2c)...</string>
+    <string name="engine_error_init">Servis başlatma hatası: %1$s</string>
+    <string name="engine_progress_updating">yt-dlp motoru (%1$s) GitHub üzerinden güncelleniyor...</string>
+    <string name="engine_result_updated">yt-dlp güncellendi (%1$s). NewPipe v0.26.2, FFmpeg ve Aria2c hazır.</string>
+    <string name="engine_result_update_failed_bundled">yt-dlp güncellenemedi; uygulamayla gelen sürüm kullanılıyor (%1$s).</string>
+    <string name="engine_result_update_failed_current">yt-dlp güncellenemedi; mevcut sürüm kullanılıyor (%1$s).</string>
+    <string name="engine_result_all_started">Tüm indirme servisleri (NewPipe v0.26.2, yt-dlp %1$s, FFmpeg, Aria2c) başarıyla açıldı!</string>
+    <string name="status_error_unknown">Bilinmeyen hata</string>
+
+    <string name="disclaimer_title">Başlamadan önce</string>
+    <string name="disclaimer_message">VBKTube kişisel kullanım ve indirme hakkına sahip olduğunuz içerikler içindir.\n\nTelif hakkı yasalarına ve kullandığınız sitelerin hizmet şartlarına uymak sizin sorumluluğunuzdadır.\n\nVBKTube; YouTube, Instagram, TikTok, X, Reddit, Facebook veya başka hiçbir platformla bağlantılı değildir, onlar tarafından onaylanmamıştır ve desteklenmemektedir.</string>
+    <string name="disclaimer_ok">Anladım</string>
+    <string name="settings_legal_row">Hakkında / Yasal Uyarı</string>
+
+    <string name="update_auto_check">Güncellemeleri otomatik denetle</string>
+    <string name="update_check_btn">Güncellemeleri denetle</string>
+    <string name="update_available_title">Güncelleme var</string>
+    <string name="update_available_msg">VBKTube %1$s yayınlandı (sizde %2$s var).</string>
+    <string name="update_download">İndir</string>
+    <string name="update_later">Sonra</string>
+    <string name="update_up_to_date">En son sürümü kullanıyorsunuz.</string>
+    <string name="update_check_failed">Güncellemeler denetlenemedi.</string>
+
+    <string name="format_fast_direct_stream">MP4 • Hızlı Doğrudan Akış (Ses + Video)</string>
+</resources>

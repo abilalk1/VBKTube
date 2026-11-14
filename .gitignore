@@ -1,0 +1,24 @@
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+app/build/
+.backup/
+
+# Release signing (never commit)
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# Build outputs / logs
+*.apk
+*.aab
+*.log
+/app/release/
