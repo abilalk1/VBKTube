@@ -30,6 +30,7 @@
   <img src="docs/screenshots/home.png" width="200" alt="Ana ekran" />
   <img src="docs/screenshots/formats.png" width="200" alt="Kalite seçimi" />
   <img src="docs/screenshots/photo.png" width="200" alt="Fotoğraf indirme" />
+  <img src="docs/screenshots/downloads.png" width="200" alt="İndirme yöneticisi" />
   <img src="docs/screenshots/browser.png" width="200" alt="Dahili tarayıcı" />
 </p>
 

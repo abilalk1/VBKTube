@@ -30,6 +30,7 @@
   <img src="docs/screenshots/home.png" width="200" alt="Home" />
   <img src="docs/screenshots/formats.png" width="200" alt="Quality selection" />
   <img src="docs/screenshots/photo.png" width="200" alt="Photo download" />
+  <img src="docs/screenshots/downloads.png" width="200" alt="Download manager" />
   <img src="docs/screenshots/browser.png" width="200" alt="Built-in browser" />
 </p>
 
