@@ -15,6 +15,4 @@ First public release.
 - First-run disclaimer and in-app update check against GitHub Releases.
 
 ### Fixes
-- Fixed bugs found during emulator testing and code review (see the git history).
 - Fixed an untranslated format subtitle in English mode and a clipped "Quick Download" button.
-- Replaced platform brand logos on the home screen with neutral icons.
