@@ -41,7 +41,7 @@
 - **Video, audio or image.** MP4 in the qualities the source really offers, MP3/M4A audio, and JPG/PNG/WebP/GIF images (including Google Images links).
 - **Multi-select.** Pick only the slides you want from carousels, galleries and story sets.
 - **Built-in browser.** Ad blocking, plus a media detector that finds the video or image playing on the page.
-- **Share to download.** Share a link from any app to VBKTube to start a download.
+- **Download without leaving your app.** Tap Share in YouTube, Instagram, TikTok, X or any other app and choose VBKTube. A small panel pops up right over that app where you pick the quality (or the slides you want) and start the download. VBKTube does not even open, and you stay where you were.
 - **Download manager.** Background downloads with progress notifications, cancel, retry, and a built-in player.
 - **Dark and light themes, English and Turkish.**
 - **No ads, no tracking, no account.** Nothing is sent to us. Cookies from the built-in browser stay on your device.

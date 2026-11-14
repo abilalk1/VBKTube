@@ -9,7 +9,7 @@ First public release.
 - YouTube, Instagram, TikTok, X/Twitter, Reddit, Facebook, Vimeo and 1000+ sites via yt-dlp.
 - Multi-select for carousels, galleries and story sets.
 - Built-in browser with ad blocking and a media detector.
-- Share a link from any app to start a download.
+- Share a link from any app and download from a small pop-up panel, without opening VBKTube.
 - Download manager with background downloads, progress notifications, cancel, retry and a built-in player.
 - English and Turkish, dark and light themes.
 - First-run disclaimer and in-app update check against GitHub Releases.

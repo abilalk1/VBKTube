@@ -41,7 +41,7 @@
 - **Video, ses veya görsel.** Kaynağın gerçekten sunduğu kalitelerde MP4, MP3/M4A ses ve JPG/PNG/WebP/GIF görseller (Google Görseller bağlantıları dahil).
 - **Çoklu seçim.** Albümlerden, galerilerden ve hikâye gruplarından sadece istediğin kareleri seç.
 - **Dahili tarayıcı.** Reklam engelleme ve sayfada oynayan video ya da görseli bulan medya algılayıcı.
-- **Paylaşarak indir.** Herhangi bir uygulamadan bir bağlantıyı VBKTube'a paylaşarak indirmeyi başlat.
+- **Uygulamadan çıkmadan indir.** YouTube, Instagram, TikTok, X veya başka bir uygulamada Paylaş'a dokun ve VBKTube'u seç. O uygulamanın üstünde küçük bir panel açılır; kaliteyi (ya da istediğin kareleri) seçip indirmeyi başlatırsın. VBKTube açılmaz, kaldığın yerde kalırsın.
 - **İndirme yöneticisi.** İlerleme bildirimli arka plan indirmeleri, iptal, yeniden deneme ve dahili oynatıcı.
 - **Koyu ve açık tema, İngilizce ve Türkçe.**
 - **Reklam yok, takip yok, hesap yok.** Bize hiçbir şey gönderilmez. Dahili tarayıcının çerezleri cihazında kalır.
